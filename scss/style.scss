@@ -73,13 +73,12 @@ nav a {
 	text-decoration: none;
 }
 
+#navigation-bar {
+	height: 70%;
+}
+
 /*Mobile*/
 @media screen and (max-width: 720px) {
-	/*section {
-		width: 100%;
-		float:	none;
-	}*/
-
 	#skill-tile {
 		width: 94%;
 		padding: 0 2%;
@@ -94,17 +93,10 @@ nav a {
 		width: 60%;
 	}
 
-	/*aside {
-		width: 100%;
-		float:	none;
-	}
-	footer {
-		clear: none;
-	}*/
 }
 
 /*Tablet*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
 	#skill-tile {
 		width: 80%;
 		padding: 0 2%;
@@ -121,11 +113,11 @@ nav a {
 }
 
 /*Desktop*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1001px) {
 	#skill-tile {
-		width: 80%;
+		width: 40%;
 		padding: 0 2%;
-		margin: 0 8%;
+		margin: 0 28%;
 	}
 
 	#triathlon-photo {
@@ -133,6 +125,6 @@ nav a {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 90%;
+		width: 60%;
 	}
 }
