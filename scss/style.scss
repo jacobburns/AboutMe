@@ -11,6 +11,7 @@
 	width: 70%;
 	display: inline-block;
 	vertical-align: middle;
+	padding-top: 3%;
 }
 
 #logo-and-photo h1 {
@@ -23,13 +24,13 @@
 
 #logo-and-photo hr {
 	display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #D12026;
-  margin: 1em 0;
-  padding: 0;
-  width: 80%;
-  display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #D12026;
+	margin: 2% 0 2% 0;
+	padding: 0;
+	width: 80%;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -107,7 +108,11 @@ nav a {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 60%;
+		width: 85%;
+	}
+
+	#logo-and-photo {
+		padding-top: 7%
 	}
 
 }
@@ -125,7 +130,7 @@ nav a {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 60%;
+		width: 70%;
 	}
 }
 
