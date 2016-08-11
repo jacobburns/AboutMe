@@ -1,0 +1,63 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Dosis';
+
+
+* {
+	background-color: 
+}
+
+#logo-and-photo {
+	margin-left: 15%;
+	width: 70%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#logo-and-photo h1 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 70px;
+	text-align: center;
+	padding-top: 3%;
+	color: #D12026;
+}
+
+#logo-and-photo hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #D12026;
+    margin: 1em 0;
+    padding: 0;
+    width: 80%; 
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#profile-photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 200px;
+	border: 1px solid #D12026;
+}
+
+#detail-summary p {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+#skill-tile {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	border: 1px solid;
+	width: 45%;
+	margin-left: 27.50%;
+	padding: 15px;
+	border-radius: 25px;
+	border-color: #D12026;
+}
+
+#skill-tile p {
+	text-align: left;
+}
