@@ -64,14 +64,16 @@
 
 nav {
 	background-color: #D12026;
-	height: 70%;
-	width: 100%;
+
 }
 
 nav a {
 	display: inline-block;
+	color: inherit;
+	text-decoration: none;
 }
 
+/*Mobile*/
 @media screen and (max-width: 720px) {
 	/*section {
 		width: 100%;
@@ -101,6 +103,7 @@ nav a {
 	}*/
 }
 
+/*Tablet*/
 @media screen and (max-width: 1200px) {
 	#skill-tile {
 		width: 80%;
@@ -117,6 +120,7 @@ nav a {
 	}
 }
 
+/*Desktop*/
 @media screen and (min-width: 1200px) {
 	#skill-tile {
 		width: 80%;
