@@ -91,8 +91,23 @@ nav a {
 	font-size: 30px;
 }
 
+nav a:hover{
+	color: white;
+}
+
 #navigation-bar {
 	height: 70%;
+}
+
+footer {
+	background-color: grey;
+	width: 100%;
+	height: 2%;
+	float: right;
+}
+
+footer a{
+	float: right;
 }
 
 /*Mobile*/
@@ -113,6 +128,11 @@ nav a {
 
 	#logo-and-photo {
 		padding-top: 7%
+	}
+
+	nav a {
+		font-size: 20px;
+		/*text-align: */
 	}
 
 }
