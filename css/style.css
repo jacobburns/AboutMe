@@ -34,7 +34,9 @@
 
 #detail-summary p {
   font-family: 'Open Sans', sans-serif;
-  text-align: center; }
+  text-align: center;
+  margin-top: 2%;
+  padding-bottom: 2%; }
 
 #skill-tile {
   font-family: 'Open Sans', sans-serif;
@@ -47,7 +49,9 @@
   border-color: #D12026; }
 
 #skill-tile p {
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 10%;
+  background-color: blue; }
 
 nav {
   background-color: #D12026; }
@@ -61,11 +65,11 @@ nav a {
   height: 70%; }
 
 /*Mobile*/
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 600px) {
   #skill-tile {
-    width: 94%;
+    width: 90%;
     padding: 0 2%;
-    margin: 0 2%; }
+    margin: 0 4%; }
 
   #triathlon-photo {
     border-radius: 25px;
@@ -74,30 +78,30 @@ nav a {
     margin-right: auto;
     width: 60%; } }
 /*Tablet*/
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 601px) and (max-width: 1200px) {
   #skill-tile {
     width: 80%;
     padding: 0 2%;
     margin: 0 8%; }
 
   #triathlon-photo {
-    border-radius: 25px;
+    border-radius: 40px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 60%; } }
 /*Desktop*/
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 1200px) {
   #skill-tile {
-    width: 40%;
+    width: 50%;
     padding: 0 2%;
-    margin: 0 28%; }
+    margin: 0 23%; }
 
   #triathlon-photo {
-    border-radius: 25px;
+    border-radius: 65px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%; } }
+    width: 80%; } }
 
 /*# sourceMappingURL=style.css.map */
