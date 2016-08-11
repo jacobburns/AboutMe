@@ -58,12 +58,19 @@
   font-size: 30px; }
 
 nav {
-  background-color: #D12026; }
+  background-color: #D12026;
+  position: fixed;
+  width: 100%;
+  height: 3%; }
+
+nav li {
+  width: 200px; }
 
 nav a {
   display: inline-block;
   color: inherit;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 30px; }
 
 #navigation-bar {
   height: 70%; }
@@ -100,6 +107,9 @@ nav a {
     width: 50%;
     padding: 0 2%;
     margin: 0 23%; }
+
+  #skill-profile li {
+    font-size: 20px; }
 
   #triathlon-photo {
     border-radius: 65px;
