@@ -61,3 +61,67 @@
 #skill-tile p {
 	text-align: left;
 }
+
+@media screen and (max-width: 720px) {
+	/*section {
+		width: 100%;
+		float:	none;
+	}*/
+
+	#skill-tile {
+		width: 94%;
+		padding: 0 2%;
+		margin: 0 2%;
+	}
+
+	#triathlon-photo {
+		border-radius: 25px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+	}
+
+	/*aside {
+		width: 100%;
+		float:	none;
+	}
+
+	footer {
+		clear: none;
+	}*/
+}
+
+@media screen and (max-width: 1200px) {
+	#skill-tile {
+		width: 80%;
+		padding: 0 2%;
+		margin: 0 8%;
+	}
+
+	#triathlon-photo {
+		border-radius: 25px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#skill-tile {
+		width: 80%;
+		padding: 0 2%;
+		margin: 0 8%;
+	}
+
+	#triathlon-photo {
+		border-radius: 25px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+}
+
+
