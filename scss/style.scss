@@ -97,6 +97,7 @@ footer {
 	margin-top: 10px;
 }
 
+/*Mobile*/
 @media screen and (max-width: 600px) {
 	#skill-tile {
 		width: 90%;
@@ -109,6 +110,7 @@ footer {
 		margin-left: auto;
 		margin-right: auto;
 		width: 85%;
+		padding: 2% 5%;
 	}
 	#logo-and-photo {
 		padding-top: 7%;
@@ -125,6 +127,7 @@ footer {
 	}
 }
 
+/*Tablet*/
 @media screen and (min-width: 601px) and (max-width: 1200px) {
 	#skill-tile {
 		width: 80%;
