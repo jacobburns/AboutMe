@@ -70,7 +70,8 @@ nav {
     text-align: center;
     padding-top: 0.1%; }
     nav a:hover {
-      color: white; }
+      color: white;
+      transition-delay: 0.2s; }
 
 #navigation-bar {
   height: 70%; }
